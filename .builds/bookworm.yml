@@ -22,4 +22,4 @@ tasks:
       export PATH="$HOME/.local/bin:$PATH"
       cd ansible-dolibarr
       source .venv/bin/activate
-      molecule test --all
+      molecule test --all -- -vvv
